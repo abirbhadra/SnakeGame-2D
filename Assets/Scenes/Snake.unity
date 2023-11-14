@@ -230,9 +230,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 898190256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67a710371d82a2440b97164874783f53, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f34d50e6e5be904c98a24ca3ef981cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snake: {fileID: 1536048787}
 --- !u!4 &898190258
 Transform:
   m_ObjectHideFlags: 0
@@ -357,10 +358,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1259074941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 795cbe0ce9f7a7045aac15e4a674a730, type: 3}
+  m_Script: {fileID: 11500000, guid: deaee16494bf5a141a27f5bc6325e770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SnakeHeadSprite: {fileID: 21300000, guid: a6389c1368f3c0348a4a4d02194be695, type: 3}
+  snakeHeadSprite: {fileID: 21300000, guid: a6389c1368f3c0348a4a4d02194be695, type: 3}
+  foodSprite: {fileID: 21300000, guid: c3bd1ffb8de1fa441a845a659442868c, type: 3}
 --- !u!4 &1259074943
 Transform:
   m_ObjectHideFlags: 0
@@ -466,6 +468,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1536048784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 738fe5dc86243a64d800bed43ecce477, type: 3}
+  m_Script: {fileID: 11500000, guid: ecfc34c1e2cad5940b5fdb55554f1850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
